@@ -18,8 +18,9 @@
   <body>
     <textarea></textarea>
 
-    <input type="button" value="test1 (everyone)" data-endpoint="test/1">
-    <input type="button" value="test2 (authorized only)" data-endpoint="test/2">
+    <input type="button" value="login1" data-endpoint="login" data-method="post" data-payload="username=john&password=pa55w0rd">
+    <input type="button" value="test1 (everyone)" data-endpoint="test/1" data-method="get">
+    <input type="button" value="test2 (authorized only)" data-endpoint="test/2" data-method="get">
 
     <script src="test.js"></script>
   </body>

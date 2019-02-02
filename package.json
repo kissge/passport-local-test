@@ -25,6 +25,7 @@
     "@nestjs/testing": "^5.0.0-beta.6",
     "@nestjs/typeorm": "^5.2.2",
     "@nestjs/websockets": "^5.0.0-beta.6",
+    "express-session": "^1.15.6",
     "fastify-formbody": "^2.0.0",
     "mysql": "^2.16.0",
     "passport": "^0.4.0",

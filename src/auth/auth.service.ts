@@ -6,6 +6,7 @@ export class AuthService {
   constructor(private readonly userService: UserService) {}
 
   async validateUser(name: string, password: string) {
+    console.log('validateUser', { name, password });
     return await this.userService.findOneByName(name);
   }
 }
